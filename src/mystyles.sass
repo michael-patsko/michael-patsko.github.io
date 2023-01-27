@@ -2,22 +2,36 @@
 
 // Set custom colours
 $scheme-yellow: #ffc100
+$scheme-yellow-invert: findColorInvert($scheme-yellow)
+
 $scheme-yellow-light: #ffd147
+$scheme-yellow-light-invert: findColorInvert($scheme-yellow-light)
+
 $scheme-yellow-dark: #cc9900
+$scheme-yellow-dark-invert: findColorInvert($scheme-yellow-dark)
 
 $scheme-blue: #279af1
+$scheme-blue-invert: findColorInvert($scheme-blue)
+
 $scheme-blue-light: #66b7f5
+$scheme-blue-light-invert: findColorInvert($scheme-blue-light)
+
 $scheme-blue-dark: #0d7dd3
+$scheme-blue-dark-invert: findColorInvert($scheme-blue-dark)
 
 $scheme-grey: #60656f
+$scheme-grey-invert: findColorInvert($scheme-grey)
+
 $scheme-grey-light: #878c97
+$scheme-grey-light-invert: findColorInvert($scheme-grey-light)
+
 $scheme-grey-dark: #4c5057
+$scheme-grey-dark-invert: findColorInvert($scheme-grey-dark)
 
 $scheme-black: #131112
 
 $scheme-white: #ffffff
 
-// Update Bulma's global variables
-$primary: $scheme-yellow
+$custom-colors: ("scheme-yellow": ($scheme-yellow, $scheme-yellow-invert),"scheme-yellow-light": ($scheme-yellow-light, $scheme-yellow-light-invert),"scheme-yellow-dark": ($scheme-yellow-dark, $scheme-yellow-dark-invert),"scheme-blue": ($scheme-blue, $scheme-blue-invert),"scheme-blue-light": ($scheme-blue-light, $scheme-blue-light-invert),"scheme-blue-dark": ($scheme-blue-dark, $scheme-blue-dark-invert),"scheme-grey": ($scheme-grey, $scheme-grey-invert),"scheme-grey-light": ($scheme-grey-light, $scheme-grey-light-invert),"scheme-grey-dark": ($scheme-grey-dark, $scheme-grey-dark-invert),"scheme-black": ($scheme-black, findColorInvert($scheme-black)),"scheme-white": ($scheme-white, findColorInvert($scheme-white)))
 
 @import "../node_modules/bulma/bulma.sass"
