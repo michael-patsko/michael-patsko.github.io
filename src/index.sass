@@ -1,3 +1,5 @@
+@import "./mystyles.sass"
+  
 @font-face
   font-family: 'Raleway'
   src: local('Raleway'), url('./fonts/Raleway-VariableFont_wght.ttf') format('truetype')
@@ -13,13 +15,6 @@
   -moz-osx-font-smoothing: grayscale
   -webkit-text-size-adjust: 100%
 
-body
-  margin: 0
-  display: flex
-  place-items: center
-  min-width: 320px
-  min-height: 100vh
-
 h1
   font-family: Raleway, Avenir, Helvetica, Arial, sans-serif
   font-size: 3.2em
@@ -32,16 +27,42 @@ p
   font-weight: 400
   line-height: 1.5
 
-// @media (prefers-color-scheme: light)
-//   :root
-//     color: #213547
-//     background-color: #ffffff
-//   a:hover
-//     color: #747bff
+@media (prefers-color-scheme: light)
+  :root
+    color: $lightmode-grey
+    background-color: $lightmode-white
+  a
+    color: $lightmode-grey
+  a:hover
+    color: $lightmode-coral
+  .navbar
+    background-color: $lightmode-white
+  .navbar a
+    color: $lightmode-grey
+  .navbar a:hover
+    color: $lightmode-coral
+  .title
+    color: $lightmode-coral !important
+  .subtitle
+    color: $lightmode-grey !important
 
-// @media (prefers-color-scheme: dark)
-//   :root
-//     color: #ffffff
-//     background-color: #131112
-//   a:hover
-//     color: #279af1
+@media (prefers-color-scheme: dark)
+  :root
+    color: $darkmode-white
+    background-color: $darkmode-black
+  a
+    color: $darkmode-white
+  a:hover
+    color: $darkmode-yellow
+  .navbar
+    background-color: $darkmode-black
+  .navbar a
+    color: $darkmode-white
+  .navbar a:hover
+    color: $darkmode-yellow
+  a.navbar-item:hover
+    background-color: $darkmode-black
+  .title
+    color: $darkmode-yellow !important
+  .subtitle
+    color: $darkmode-white !important
