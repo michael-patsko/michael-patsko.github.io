@@ -58,9 +58,21 @@ $lightmode-coral-invert: findColorInvert($lightmode-coral)
 
 $custom-colors: ("darkmode-yellow": ($darkmode-yellow, $darkmode-yellow-invert),"darkmode-yellow-light": ($darkmode-yellow-light, $darkmode-yellow-light-invert),"darkmode-yellow-dark": ($darkmode-yellow-dark, $darkmode-yellow-dark-invert),"darkmode-blue": ($darkmode-blue, $darkmode-blue-invert),"darkmode-blue-light": ($darkmode-blue-light, $darkmode-blue-light-invert),"darkmode-blue-dark": ($darkmode-blue-dark, $darkmode-blue-dark-invert),"darkmode-grey": ($darkmode-grey, $darkmode-grey-invert),"darkmode-grey-light": ($darkmode-grey-light, $darkmode-grey-light-invert),"darkmode-grey-dark": ($darkmode-grey-dark, $darkmode-grey-dark-invert),"darkmode-black": ($darkmode-black, findColorInvert($darkmode-black)),"darkmode-white": ($darkmode-white, findColorInvert($darkmode-white)), "lightmode-grey": ($lightmode-grey, $lightmode-grey-invert),"lightmode-navy": ($lightmode-navy, $lightmode-navy-invert),"lightmode-blue": ($lightmode-blue, $lightmode-blue-invert),"lightmode-white": ($lightmode-white, $lightmode-white-invert),"lightmode-coral": ($lightmode-coral, $lightmode-coral-invert))
 
+// Custom font sizes
+
+$size-1: 4.5rem
+$size-2: 3rem
+$size-3: 2.5rem
+$size-4: 2rem
+$size-5: 1.5rem
+$size-6: 1.25rem
+$size-7: 1rem
+$size-8: 0.75rem
+
 // Modifies Bulma variables
 
 $family-primary: Lora, Georgia, Times, serif
 $family-secondary: Raleway, Avenir, Helvetica, Arial, sans-serif
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-7 $size-8
 
 @import "../node_modules/bulma/bulma.sass"
