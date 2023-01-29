@@ -1,17 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
-  return (
-    <div>
-      <h1>Hey, I'm Michael.</h1>
-      <p>
-        I am an aspiring Full Stack Developer based in Sandy, UK. 
-        In my spare time you'll find me playing the piano, exploring the outdoors, or playing video games.
-        <br />
-        <br />
-        Having recently completed a 12-week intensive coding bootcamp, I am now looking for my first role as a developer.
-      </p>
+  return (<>
+    <div className="section">
+      <div className="content">
+        <h1 className="title is-size-1-desktop is-size-3-mobile">Hey, I'm Michael.</h1>
+        <h3 className="subtitle is-size-4-desktop is-size-6-mobile has-text-weight-light">
+          <br/>
+          I'm an aspiring Full Stack Developer based in Sandy, UK. 
+          <br/><br/>
+          Having recently completed a 12-week intensive coding bootcamp, I am now looking for my first role as a junior developer.
+        </h3>
+        <Link to="/about">Learn more</Link>
+      </div>
     </div>
+    </>
   );
 };
 
