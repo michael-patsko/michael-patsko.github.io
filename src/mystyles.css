@@ -5852,7 +5852,7 @@ button.dropdown-item {
       border-color: #0a0a0a; }
     .navbar.is-white .navbar-burger {
       color: #0a0a0a; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-white .navbar-start > .navbar-item,
       .navbar.is-white .navbar-start .navbar-link,
       .navbar.is-white .navbar-end > .navbar-item,
@@ -5897,7 +5897,7 @@ button.dropdown-item {
       border-color: white; }
     .navbar.is-black .navbar-burger {
       color: white; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-black .navbar-start > .navbar-item,
       .navbar.is-black .navbar-start .navbar-link,
       .navbar.is-black .navbar-end > .navbar-item,
@@ -5942,7 +5942,7 @@ button.dropdown-item {
       border-color: rgba(0, 0, 0, 0.7); }
     .navbar.is-light .navbar-burger {
       color: rgba(0, 0, 0, 0.7); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-light .navbar-start > .navbar-item,
       .navbar.is-light .navbar-start .navbar-link,
       .navbar.is-light .navbar-end > .navbar-item,
@@ -5987,7 +5987,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-dark .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-dark .navbar-start > .navbar-item,
       .navbar.is-dark .navbar-start .navbar-link,
       .navbar.is-dark .navbar-end > .navbar-item,
@@ -6032,7 +6032,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-primary .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-primary .navbar-start > .navbar-item,
       .navbar.is-primary .navbar-start .navbar-link,
       .navbar.is-primary .navbar-end > .navbar-item,
@@ -6077,7 +6077,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-link .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-link .navbar-start > .navbar-item,
       .navbar.is-link .navbar-start .navbar-link,
       .navbar.is-link .navbar-end > .navbar-item,
@@ -6122,7 +6122,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-info .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-info .navbar-start > .navbar-item,
       .navbar.is-info .navbar-start .navbar-link,
       .navbar.is-info .navbar-end > .navbar-item,
@@ -6167,7 +6167,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-success .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-success .navbar-start > .navbar-item,
       .navbar.is-success .navbar-start .navbar-link,
       .navbar.is-success .navbar-end > .navbar-item,
@@ -6212,7 +6212,7 @@ button.dropdown-item {
       border-color: rgba(0, 0, 0, 0.7); }
     .navbar.is-warning .navbar-burger {
       color: rgba(0, 0, 0, 0.7); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-warning .navbar-start > .navbar-item,
       .navbar.is-warning .navbar-start .navbar-link,
       .navbar.is-warning .navbar-end > .navbar-item,
@@ -6257,7 +6257,7 @@ button.dropdown-item {
       border-color: #fff; }
     .navbar.is-danger .navbar-burger {
       color: #fff; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-danger .navbar-start > .navbar-item,
       .navbar.is-danger .navbar-start .navbar-link,
       .navbar.is-danger .navbar-end > .navbar-item,
@@ -6302,7 +6302,7 @@ button.dropdown-item {
       border-color: findColorInvert(#ffc100); }
     .navbar.is-darkmode-yellow .navbar-burger {
       color: findColorInvert(#ffc100); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-yellow .navbar-start > .navbar-item,
       .navbar.is-darkmode-yellow .navbar-start .navbar-link,
       .navbar.is-darkmode-yellow .navbar-end > .navbar-item,
@@ -6347,7 +6347,7 @@ button.dropdown-item {
       border-color: findColorInvert(#ffd147); }
     .navbar.is-darkmode-yellow-light .navbar-burger {
       color: findColorInvert(#ffd147); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-yellow-light .navbar-start > .navbar-item,
       .navbar.is-darkmode-yellow-light .navbar-start .navbar-link,
       .navbar.is-darkmode-yellow-light .navbar-end > .navbar-item,
@@ -6392,7 +6392,7 @@ button.dropdown-item {
       border-color: findColorInvert(#cc9900); }
     .navbar.is-darkmode-yellow-dark .navbar-burger {
       color: findColorInvert(#cc9900); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-yellow-dark .navbar-start > .navbar-item,
       .navbar.is-darkmode-yellow-dark .navbar-start .navbar-link,
       .navbar.is-darkmode-yellow-dark .navbar-end > .navbar-item,
@@ -6437,7 +6437,7 @@ button.dropdown-item {
       border-color: findColorInvert(#279af1); }
     .navbar.is-darkmode-blue .navbar-burger {
       color: findColorInvert(#279af1); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-blue .navbar-start > .navbar-item,
       .navbar.is-darkmode-blue .navbar-start .navbar-link,
       .navbar.is-darkmode-blue .navbar-end > .navbar-item,
@@ -6482,7 +6482,7 @@ button.dropdown-item {
       border-color: findColorInvert(#66b7f5); }
     .navbar.is-darkmode-blue-light .navbar-burger {
       color: findColorInvert(#66b7f5); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-blue-light .navbar-start > .navbar-item,
       .navbar.is-darkmode-blue-light .navbar-start .navbar-link,
       .navbar.is-darkmode-blue-light .navbar-end > .navbar-item,
@@ -6527,7 +6527,7 @@ button.dropdown-item {
       border-color: findColorInvert(#0d7dd3); }
     .navbar.is-darkmode-blue-dark .navbar-burger {
       color: findColorInvert(#0d7dd3); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-blue-dark .navbar-start > .navbar-item,
       .navbar.is-darkmode-blue-dark .navbar-start .navbar-link,
       .navbar.is-darkmode-blue-dark .navbar-end > .navbar-item,
@@ -6572,7 +6572,7 @@ button.dropdown-item {
       border-color: findColorInvert(#60656f); }
     .navbar.is-darkmode-grey .navbar-burger {
       color: findColorInvert(#60656f); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-grey .navbar-start > .navbar-item,
       .navbar.is-darkmode-grey .navbar-start .navbar-link,
       .navbar.is-darkmode-grey .navbar-end > .navbar-item,
@@ -6617,7 +6617,7 @@ button.dropdown-item {
       border-color: findColorInvert(#878c97); }
     .navbar.is-darkmode-grey-light .navbar-burger {
       color: findColorInvert(#878c97); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-grey-light .navbar-start > .navbar-item,
       .navbar.is-darkmode-grey-light .navbar-start .navbar-link,
       .navbar.is-darkmode-grey-light .navbar-end > .navbar-item,
@@ -6662,7 +6662,7 @@ button.dropdown-item {
       border-color: findColorInvert(#4c5057); }
     .navbar.is-darkmode-grey-dark .navbar-burger {
       color: findColorInvert(#4c5057); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-grey-dark .navbar-start > .navbar-item,
       .navbar.is-darkmode-grey-dark .navbar-start .navbar-link,
       .navbar.is-darkmode-grey-dark .navbar-end > .navbar-item,
@@ -6707,7 +6707,7 @@ button.dropdown-item {
       border-color: findColorInvert(#131112); }
     .navbar.is-darkmode-black .navbar-burger {
       color: findColorInvert(#131112); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-black .navbar-start > .navbar-item,
       .navbar.is-darkmode-black .navbar-start .navbar-link,
       .navbar.is-darkmode-black .navbar-end > .navbar-item,
@@ -6752,7 +6752,7 @@ button.dropdown-item {
       border-color: findColorInvert(#ffffff); }
     .navbar.is-darkmode-white .navbar-burger {
       color: findColorInvert(#ffffff); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-darkmode-white .navbar-start > .navbar-item,
       .navbar.is-darkmode-white .navbar-start .navbar-link,
       .navbar.is-darkmode-white .navbar-end > .navbar-item,
@@ -6797,7 +6797,7 @@ button.dropdown-item {
       border-color: findColorInvert(#495867); }
     .navbar.is-lightmode-grey .navbar-burger {
       color: findColorInvert(#495867); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-lightmode-grey .navbar-start > .navbar-item,
       .navbar.is-lightmode-grey .navbar-start .navbar-link,
       .navbar.is-lightmode-grey .navbar-end > .navbar-item,
@@ -6842,7 +6842,7 @@ button.dropdown-item {
       border-color: findColorInvert(#577399); }
     .navbar.is-lightmode-navy .navbar-burger {
       color: findColorInvert(#577399); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-lightmode-navy .navbar-start > .navbar-item,
       .navbar.is-lightmode-navy .navbar-start .navbar-link,
       .navbar.is-lightmode-navy .navbar-end > .navbar-item,
@@ -6887,7 +6887,7 @@ button.dropdown-item {
       border-color: findColorInvert(#bdd5ea); }
     .navbar.is-lightmode-blue .navbar-burger {
       color: findColorInvert(#bdd5ea); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-lightmode-blue .navbar-start > .navbar-item,
       .navbar.is-lightmode-blue .navbar-start .navbar-link,
       .navbar.is-lightmode-blue .navbar-end > .navbar-item,
@@ -6932,7 +6932,7 @@ button.dropdown-item {
       border-color: findColorInvert(#f7f7ff); }
     .navbar.is-lightmode-white .navbar-burger {
       color: findColorInvert(#f7f7ff); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-lightmode-white .navbar-start > .navbar-item,
       .navbar.is-lightmode-white .navbar-start .navbar-link,
       .navbar.is-lightmode-white .navbar-end > .navbar-item,
@@ -6977,7 +6977,7 @@ button.dropdown-item {
       border-color: findColorInvert(#fe5f55); }
     .navbar.is-lightmode-coral .navbar-burger {
       color: findColorInvert(#fe5f55); }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 769px) {
       .navbar.is-lightmode-coral .navbar-start > .navbar-item,
       .navbar.is-lightmode-coral .navbar-start .navbar-link,
       .navbar.is-lightmode-coral .navbar-end > .navbar-item,
@@ -7165,7 +7165,7 @@ a.navbar-item,
   height: 2px;
   margin: 0.5rem 0; }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .navbar > .container {
     display: block; }
   .navbar-brand .navbar-item,
@@ -7202,7 +7202,7 @@ a.navbar-item,
   body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem; } }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
   .navbar,
   .navbar-menu,
   .navbar-start,
@@ -12157,4 +12157,4 @@ a.has-text-lightmode-coral-dark:hover, a.has-text-lightmode-coral-dark:focus {
 
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 1.5rem 3rem 1.5rem; }
