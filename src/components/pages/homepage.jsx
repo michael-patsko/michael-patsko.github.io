@@ -9,7 +9,9 @@ const Homepage = () => {
         <h3 className="subtitle is-size-4-desktop is-size-5-tablet is-size-6-mobile has-text-weight-light">
           I'm an aspiring Full Stack Developer based in Sandy, UK. 
           <br/><br/>
-          Having recently completed a 12-week intensive coding bootcamp, I am now looking for my first role as a junior developer.
+          Having recently completed a 12-week intensive coding{" "}
+          <a className="is-underlined" href="https://www.techswitch.co.uk/home" target="_blank" rel="noopener noreferrer">bootcamp</a>,{" "}
+          I am now looking for my first role as a junior developer.
         </h3>
         <Link to="/about">Learn more</Link>
       </div>
