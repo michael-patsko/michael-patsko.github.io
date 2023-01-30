@@ -1,0 +1,29 @@
+@import "../../mystyles.sass"
+
+// .level-item:last-child
+//     margin-bottom: 0.75rem
+
+.footer-separtor
+    height: 1px
+
+@media (prefers-color-scheme: light)
+    .footer
+        background-color: $lightmode-white !important
+    .footer-text h3
+        color: $lightmode-grey !important
+    .footer-text p
+        color: $lightmode-grey !important
+    .footer-separator
+        color: $lightmode-grey
+        background-color: $lightmode-grey
+
+@media (prefers-color-scheme: dark)
+    .footer
+        background-color: $darkmode-black !important
+    .footer-text h3
+        color: $darkmode-white !important
+    .footer-text p
+        color: $darkmode-white !important
+    .footer-separator
+        color: $darkmode-grey
+        background-color: $darkmode-grey
