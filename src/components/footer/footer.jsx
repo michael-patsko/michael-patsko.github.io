@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="level-item">
           <div className="footer-text has-text-centered-mobile">
-            <h3 className="is-size-7 is-family-secondary has-text-weight-semibold">Socials</h3>
+            <h3 className="is-size-7 is-family-secondary has-text-weight-semibold">Social</h3>
             <p className="is-size-7 is-family-secondary has-text-weight-light">
               <a className="is-underlined" href="https://github.com/michael-patsko" target="_blank" rel="noopener noreferrer">Github</a> |{" "}
               <a className="is-underlined" href="https://www.linkedin.com/in/michael-patsko-871086195/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
