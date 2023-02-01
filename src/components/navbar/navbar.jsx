@@ -25,8 +25,12 @@ const Navbar = () => {
             </div>
             <div id="navMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
                 <div className="navbar-end">
-                    <Link to="/" className="navbar-item is-size-5 is-family-secondary has-text-weight-semibold">Home</Link>
-                    <Link to="/about" className="navbar-item is-size-5 is-family-secondary has-text-weight-semibold">About</Link>
+                    <div className="navbar-item has-text-right">
+                        <Link to="/" className={`is-size-5 is-family-secondary has-text-weight-semibold ${isActive ? 'mr-5' : ''}`}>Home</Link>
+                    </div>
+                    <div className="navbar-item has-text-right">
+                        <Link to="/about" className={`is-size-5 is-family-secondary has-text-weight-semibold ${isActive ? 'mr-5' : ''}`}>About</Link>
+                    </div>
                 </div>
             </div>
         </nav>
