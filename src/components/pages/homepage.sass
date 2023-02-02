@@ -1,0 +1,73 @@
+@import "../../mystyles.sass"
+
+.hover-link
+  display: inline-block
+
+.hover-link:hover
+  transform: translateY(-4px)
+
+.card-content
+  .content
+    font-size: $size-6 !important
+    font-family: $family-secondary !important
+    font-weight: 500 !important
+
+@media (prefers-color-scheme: light)
+  .card
+    background-color: $darkmode-blue !important
+    .card-header
+      background-color: $darkmode-blue-dark !important
+      .card-header-title
+        color: $darkmode-white !important
+    .card-content
+      color: $darkmode-white !important
+
+  .card-1
+    background-color: $darkmode-grey-dark !important
+    .card-header
+      background-color: $darkmode-grey-dark !important
+
+  .card-2
+    background-color: $darkmode-grey-dark !important
+    .card-header
+      background-color: $darkmode-grey-dark !important
+
+  .card-3
+    background-color: $darkmode-grey-dark !important
+    .card-header
+      background-color: $darkmode-grey-dark !important
+
+  .card-4
+    background-color: $darkmode-grey-dark !important
+    .card-header
+      background-color: $darkmode-grey-dark !important
+
+@media (prefers-color-scheme: dark)
+  .card
+    background-color: $darkmode-blue !important
+    .card-header
+      background-color: $darkmode-blue-dark !important
+      .card-header-title
+        color: $darkmode-white !important
+    .card-content
+      color: $darkmode-white !important
+
+  .card-1
+    background-color: #1e5065 !important
+    .card-header
+      background-color: #226581 !important
+
+  .card-2
+    background-color: #1e6557 !important
+    .card-header
+      background-color: #22816e !important
+
+  .card-3
+    background-color: #7b459b !important
+    .card-header
+      background-color: #9e56c8 !important
+
+  .card-4
+    background-color: #92212a !important
+    .card-header
+      background-color: #bd2632 !important
