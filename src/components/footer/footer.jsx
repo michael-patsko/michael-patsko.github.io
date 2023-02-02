@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="level">
 
         <div className="level-item">
-          <div className="footer-text">
-            <h3 className="title is-size-7 is-family-secondary has-text-weight-semibold">Michael Patsko</h3>
-            <br className="is-hidden-mobile"/>
+          <div className="footer-text has-text-centered-mobile">
+            <h3 className="title is-size-7 is-family-secondary has-text-weight-semibold">© 2023</h3>
+            <p className="is-size-7 is-family-secondary has-text-weight-light">Michael Patsko</p>
             <br className="is-hidden-mobile"/>
           </div>
         </div>
