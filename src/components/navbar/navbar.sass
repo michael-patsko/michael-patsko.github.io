@@ -12,6 +12,9 @@
   .navbar-menu
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out
 
+.theme-toggle
+  cursor: pointer
+
 [data-theme="light"]
   .navbar
     background-color: $lightmode-white !important
@@ -25,6 +28,8 @@
     background-color: $lightmode-white !important
   a.navbar-item:hover
     background-color: $lightmode-white !important
+  .theme-toggle.icon
+    color: $lightmode-grey !important
 
 [data-theme="dark"]
   .navbar
@@ -39,3 +44,5 @@
     background-color: $darkmode-black !important
   a.navbar-item:hover
     background-color: $darkmode-black !important
+  .theme-toggle.icon
+    color: $darkmode-white !important
